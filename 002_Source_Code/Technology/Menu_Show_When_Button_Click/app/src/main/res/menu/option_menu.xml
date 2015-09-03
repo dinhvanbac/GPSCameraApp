@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="0"
+        android:icon="@drawable/icon01"
+        android:title="Item 1">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="1"
+        android:icon="@drawable/icon02"
+        android:title="Item 2">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:orderInCategory="2"
+        android:icon="@drawable/icon03"
+        android:title="Item 3">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:orderInCategory="3"
+        android:icon="@drawable/icon04"
+        android:title="Item 4">
+    </item>
+    <item
+        android:id="@+id/item5"
+        android:orderInCategory="4"
+        android:icon="@drawable/icon05"
+        android:title="Item 5">
+    </item>
+    <item
+        android:id="@+id/item6"
+        android:orderInCategory="5"
+        android:icon="@drawable/icon06"
+        android:title="Item 6">
+        <menu>
+            <item
+                android:id="@+id/item7"
+                android:orderInCategory="3"
+                android:icon="@drawable/icon07"
+                android:title="Item 6.1">
+            </item>
+            <item
+                android:id="@+id/item8"
+                android:orderInCategory="4"
+                android:icon="@drawable/icon08"
+                android:title="Item 6.2">
+            </item>
+        </menu>
+    </item>
+</menu>
