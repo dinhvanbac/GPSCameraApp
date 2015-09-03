@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Japan setup</string>
+    <string name="action_settings">Japanse Cai dat</string>
+    <string name="hello_world">Japan xin chau</string>
+    <string-array name="spice">
+        <item>作文</item>
+        <item>履歴</item>
+        <item>地理</item>
+        <item>技術</item>
+        <item>数学</item>
+        <item>形</item>
+        <item>科学</item>
+        <item>陣額</item>
+    </string-array>
+</resources>

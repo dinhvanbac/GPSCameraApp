@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Đa ngôn ngữ</string>
+
+    <string name="hello_world">Xin chào</string>
+    <string name="action_settings">Cài đặt</string>
+    <string-array name="spice">
+        <item>Văn Học</item>
+        <item>Lịch Sử</item>
+        <item>Địa Lý</item>
+        <item>Kỹ Thuật</item>
+        <item>Toán Học</item>
+        <item>Hình Học</item>
+        <item>Khoa Học</item>
+        <item>Nhân Văn</item>
+    </string-array>
+
+</resources>
