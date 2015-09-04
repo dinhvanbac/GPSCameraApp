@@ -1,0 +1,14 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	clean = git-lfs clean %f
+	clean = git-lfs clean %f
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[socks]
+	proxy = mda-sg600.zdc.local:3128
+[user]
+	name = dinhvanbac
+	email = zdc.dinh.van.bac@gmail.com
+[http]
+	proxy = mda-sg600.zdc.local:3128
