@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_menu" />
+
+            <EditText
+                android:id="@+id/txtAddress"
+                android:layout_height="160px"
+                android:layout_marginTop="15px"
+                android:paddingLeft="30px"
+                android:paddingTop="0px"
+                android:paddingRight="30px"
+                android:background="@drawable/border_edit_text"
+                android:maxLines="1"
+                android:textColor="#4279bd"
+                android:textColorHint="#BBBBBB"
+                android:hint="@string/address_hints" />
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_search" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+

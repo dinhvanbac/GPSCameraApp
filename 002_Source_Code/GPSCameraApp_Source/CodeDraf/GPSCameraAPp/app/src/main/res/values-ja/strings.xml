@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPSCameraAPp</string>
+    <string name="title_activity_maps">マップ</string>
+    <string name="add_photo">写真を追加 </string>
+    <string name="add_video">動画を追加 </string>
+    <string name="change_language">言語を設定 </string>
+    <string name="import_kml">KMLインポート </string>
+    <string name="export_kml">KMLエクスポート </string>
+    <string name="account_info">アカウント情報 </string>
+    <string name="google_maps_key" translatable="false">AIzaSyD8verGx9zTeZG86uD3lmTp1psB-zYRkRM</string>
+    <string name="language_cancel">キャンセル</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_title">言語を選択してください。</string>
+    <string name="button_menu">メニュー</string>
+    <string name="button_search">探す</string>
+    <string name="address_hints">探すアドレース</string>
+</resources>

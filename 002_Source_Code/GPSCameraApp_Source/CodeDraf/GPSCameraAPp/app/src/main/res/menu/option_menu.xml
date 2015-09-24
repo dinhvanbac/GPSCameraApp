@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnAddPhoto"
+        android:orderInCategory="0"
+        android:title="@string/add_photo">
+    </item>
+    <item
+        android:id="@+id/mnAddVideo"
+        android:orderInCategory="1"
+        android:title="@string/add_video">
+    </item>
+    <item
+        android:id="@+id/mnChangeLanguage"
+        android:orderInCategory="2"
+        android:title="@string/change_language">
+    </item>
+    <item
+        android:id="@+id/mnImportKML"
+        android:orderInCategory="3"
+        android:title="@string/import_kml">
+    </item>
+    <item
+        android:id="@+id/mnExportKML"
+        android:orderInCategory="4"
+        android:title="@string/export_kml">
+    </item>
+    <item
+        android:id="@+id/mnAccountInfo"
+        android:orderInCategory="5"
+        android:title="@string/account_info">
+    </item>
+</menu>

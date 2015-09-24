@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GPSCameraAPp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_video">Add Video</string>
+    <string name="change_language">Change Language</string>
+    <string name="import_kml">Import KML</string>
+    <string name="export_kml">Export KML</string>
+    <string name="account_info">Account Info</string>
+    <string name="language_title">Please choose language</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_cancel">Cancel</string>
+    <string name="button_menu">Menu</string>
+    <string name="button_search">Search</string>
+    <string name="address_hints">Search address</string>
+    <string name="title_activity_maps_choose_place">MapsChoosePlace</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

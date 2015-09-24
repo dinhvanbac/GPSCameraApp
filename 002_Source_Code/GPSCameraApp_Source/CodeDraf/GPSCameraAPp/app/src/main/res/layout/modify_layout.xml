@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvTitleLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="Add Picture"
+                android:textColor="#0033FF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvTitleMedia"
+                        android:layout_width="300px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30px"
+                        android:paddingTop="20px"
+                        android:text="Title"
+                        android:textColor="#4279bd"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/txtTitles"
+                        android:layout_height="140px"
+                        android:background="@drawable/border_edit_text"
+                        android:maxLines="1"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:textColor="#4279bd"
+                        android:textSize="18sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvMedia"
+                        android:layout_width="300px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20px"
+                        android:paddingTop="20px"
+                        android:text="Media"
+                        android:textColor="#4279bd"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/btnAddMedia"
+                        android:layout_width="140px"
+                        android:layout_height="140px"
+                        android:background="#00000000"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/button_choose_media" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TableRow android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imvPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_image_view"
+                        android:scaleType="fitXY"/>
+
+                    <VideoView
+                        android:id="@+id/vdoVideo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_image_view"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvPosition"
+                        android:layout_width="300px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20px"
+                        android:text="Position"
+                        android:textColor="#4279bd"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/txtPosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140px"
+                        android:background="@drawable/border_edit_text"
+                        android:paddingLeft="30px"
+                        android:text=""
+                        android:textColor="#4279bd"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/btnChoosePlace"
+                        android:layout_width="140px"
+                        android:layout_height="140px"
+                        android:background="#00000000"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/button_choose_place" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <TextView
+                    android:id="@+id/tvComment"
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20px"
+                    android:text="Comment"
+                    android:textColor="#4279bd"
+                    android:textSize="18sp" />
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <EditText
+                    android:id="@+id/txtComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="320px"
+                    android:background="@drawable/border_edit_text"
+                    android:paddingLeft="30px"
+                    android:text=""
+                    android:textColor="#4279bd"
+                    android:textSize="18sp" />
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TableRow android:gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add"
+                        android:textColor="#4279bd"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delete"
+                        android:textColor="#4279bd"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel"
+                        android:textColor="#4279bd"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
