@@ -1,0 +1,6 @@
+<resources>
+    <color name="color_label">#4279BD</color>
+    <color name="color_edit_text">#4279BD</color>
+    <color name="color_text_hint">#BBBBBB</color>
+    <color name="color_title_label">#0033FF</color>
+</resources>

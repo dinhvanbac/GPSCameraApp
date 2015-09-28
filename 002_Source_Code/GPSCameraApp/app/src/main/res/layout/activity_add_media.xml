@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    tools:context="com.android.b_dinh.gpscameraapp.AddMedia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitleLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="@string/str_add_media"
+                android:textColor="@color/color_title_label"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvTitleMedia"
+                        android:layout_width="350px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30px"
+                        android:paddingTop="20px"
+                        android:text="@string/str_title"
+                        android:textColor="@color/color_edit_text"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/txtTitles"
+                        android:layout_height="140px"
+                        android:background="@drawable/edit_text_style"
+                        android:maxLines="1"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:textColor="@color/color_edit_text"
+                        android:textSize="18sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvMedia"
+                        android:layout_width="350px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20px"
+                        android:paddingTop="20px"
+                        android:text="@string/str_media"
+                        android:textColor="@color/color_label"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/btnAddMedia"
+                        android:layout_width="140px"
+                        android:layout_height="140px"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_btn_add" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TableRow android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imvPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/img_style"
+                        android:scaleType="fitXY" />
+
+                    <VideoView
+                        android:id="@+id/vdoVideo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/img_style"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvPosition"
+                        android:layout_width="350px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20px"
+                        android:text="@string/str_position"
+                        android:textColor="@color/color_label"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/txtPosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140px"
+                        android:background="@drawable/edit_text_style"
+                        android:paddingLeft="30px"
+                        android:text=""
+                        android:textColor="@color/color_edit_text"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/btnChoosePlace"
+                        android:layout_width="140px"
+                        android:layout_height="140px"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_btn_place" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <TextView
+                    android:id="@+id/tvComment"
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20px"
+                    android:text="@string/str_comment"
+                    android:textColor="@color/color_label"
+                    android:textSize="18sp" />
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:stretchColumns="1">
+
+                <EditText
+                    android:id="@+id/txtComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="320px"
+                    android:background="@drawable/edit_text_style"
+                    android:paddingLeft="30px"
+                    android:text=""
+                    android:textColor="@color/color_edit_text"
+                    android:textSize="18sp" />
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TableRow android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/btnOk"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_btn_ok" />
+
+                    <ImageButton
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:id="@+id/btnEditDelete"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_btn_delete" />
+
+                    <ImageButton
+                        android:id="@+id/btnClose"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_btn_close" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
